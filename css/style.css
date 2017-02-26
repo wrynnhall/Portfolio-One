@@ -1,0 +1,347 @@
+a:hover,
+a:focus{
+  color: #5fba7d;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #5fba7d;
+  text-decoration: none;
+}
+h3{
+	margin: 0;
+}
+body{
+
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  
+}
+
+p{
+  color: grey;
+}
+
+.container-fluid{
+  padding: 0px;
+
+}
+
+.navbar{
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.navbar-links-style{
+  color: white;
+  font-family: 'Lalezar', cursive;
+  font-size: 200%;
+  
+}
+
+#about, #skills, #portfolio, #contact{
+	padding-top: 40px;
+}
+
+
+
+header{
+  color: white;
+  min-height: 100vh;
+
+  background-image: url('../images/robot3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Set the position of the container containing the header text
+('zacharyhall' with 'develeoper', 'student', and 'learner'
+underneath)*/
+.header-layout{
+  padding: 0px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+/*Header my name*/
+.header-name{
+
+  font-size: 15vw;
+
+
+}
+
+/*Header descriptors*/
+.header-descriptors{
+  font-size: 4vw;
+  font-weight: bold;
+
+}
+/*Style some keyword text*/
+.header-layout .keywords{
+  color: #5fba7d;
+  font-weight: bold;
+
+}
+.keywords{
+  color: #5fba7d;
+
+}
+
+
+/*Nicely centered about section.*/
+.about-container{
+  width: 60%;
+
+  font-size: 20px;
+
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/*Image style for pic of me in ABOUT section*/
+.img-me{
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 15%;
+}
+
+/*Adds the brushstroke behind the picture (in the background)*/
+.about-bg{
+  background-image: url('../images/about_bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right center;
+}
+.skills-header{
+  background-image: url('../images/skills.jpg');
+  background-position: center bottom;
+  background-attachment: fixed;
+
+  width: 100%;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+
+}
+
+.skills-header-text{
+  font-size: 15vw;
+  font-weight: lighter;
+
+}
+/*Editing the bootstrap classes 'progress' and 'progress-bar'*/
+.progress {
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 12px;
+  background-color: lightgrey;
+}
+.progress-bar{
+  background-color: #5fba7d;
+
+}
+.all-progress-bars{
+  width: 98%;
+  margin: 30px 10px;
+  padding: 0px;
+}
+
+.language-progress-bars{
+
+  border-right: 1px solid lightgrey;
+  text-align: center;
+
+}
+
+.languages{
+  margin: 10px 10px;
+  color: grey;
+}
+
+.concepts-progress-bars{
+
+  text-align: center;
+}
+
+.personal-skills-progress-bars{
+  border-left: 1px solid lightgrey;
+  text-align: center;
+}
+
+.contact-header{
+  background-image: url('../images/contact.jpg');
+  background-position: center bottom;
+  background-attachment: fixed;
+
+  width: 100%;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+
+}
+ .column{
+	 
+	 padding:7px;
+ }
+.portfolio-header{
+	
+  background-image: url('../images/portfolio.jpg');
+  background-position: center bottom;
+  background-attachment: fixed;
+
+  width: 100%;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+
+.portfolio_rows{
+	margin-top: 15px;
+}
+
+
+.portfolio-container{
+	
+}
+
+.portfolio_img{
+	
+	
+	width: 100%;
+	
+	
+}
+.portfolio_secondary_img{
+	display: none;
+}
+
+
+.portfolio_separators{
+	border-top: 2px solid #5fba7d;
+	width: 50%;
+	height: 2px;
+	position: relative;
+	margin: 10px 0;
+}
+
+
+.figcaption_bottom{
+	bottom: 0px;
+}
+
+.contact-header-text{
+  font-size: 15vw;
+  font-weight: lighter;
+
+}
+.contact-container{
+  margin: 20px 50px;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.contact-email{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  
+
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
+  color: grey;
+
+}
+.contact-top{
+  border-right: 1px solid black;
+}
+.email{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 3vw;
+
+}
+
+.media-icons{
+
+  font-size: 4vw;
+}
+
+footer{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+/*shrinks the header and header image and moves all contents up for better visability on mobile.*/
+@media (max-width: 990px){
+  .contact-top{
+    border-right: 0px solid black;
+
+
+  }
+  .contact-email{
+    font-size: 4vw;
+  }
+  .email{
+    font-size: 4vw;
+  }
+  .media-icons{
+    font-size: 15vw;
+  }
+}
+
+@media (max-width: 600px){
+  header{
+    min-height: 50vh;
+  }
+  .header-layout{
+    padding: 0px;
+    position: absolute;
+    bottom:50vh;
+    right: 10px;
+  }
+  .media-icons{
+    font-size: 17vw;
+  }
+
+}
+
+@media (max-width: 767px){
+	.language-progress-bars{
+
+		border-right: 0px;
+		
+	}
+	.personal-skills-progress-bars{
+		border-left: 0px;
+		
+	}
+}
+
+@media (max-width: 990px){
+	
+	.contact-bottom{
+		border-top: 1px solid black;
+		padding-top: 30px;
+		border-bottom: 1px solid black;
+	}
+	.contact-top{
+		padding-bottom:30px;
+	}
+	
+}
+
