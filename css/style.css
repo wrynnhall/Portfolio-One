@@ -1,3 +1,5 @@
+
+
 a:hover,
 a:focus{
   color: #5fba7d;
@@ -16,7 +18,7 @@ body{
 
   font-family: 'Roboto', sans-serif;
   width: 100%;
-  
+
 }
 
 p{
@@ -37,7 +39,7 @@ p{
   color: white;
   font-family: 'Lalezar', cursive;
   font-size: 200%;
-  
+
 }
 
 #about, #skills, #portfolio, #contact{
@@ -98,7 +100,7 @@ underneath)*/
 
   font-size: 20px;
 
-  
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -191,11 +193,11 @@ underneath)*/
 
 }
  .column{
-	 
+
 	 padding:7px;
  }
 .portfolio-header{
-	
+
   background-image: url('../images/portfolio.jpg');
   background-position: center bottom;
   background-attachment: fixed;
@@ -209,20 +211,32 @@ underneath)*/
 
 .portfolio_rows{
 	margin-top: 15px;
+
 }
 
+.row{
+  overflow: hidden;
+}
+.well{
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
+    position: relative;
+    background: white;
+    border-top: 0px;
+}
 
 .portfolio-container{
-	
+
+}
+
+figcaption{
+  margin-top: 5px;
 }
 
 .portfolio_img{
-	
-	
 	width: 100%;
-	
-	
 }
+
 .portfolio_secondary_img{
 	display: none;
 }
@@ -237,9 +251,7 @@ underneath)*/
 }
 
 
-.figcaption_bottom{
-	bottom: 0px;
-}
+
 
 .contact-header-text{
   font-size: 15vw;
@@ -257,7 +269,7 @@ underneath)*/
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   width: 100%;
-  
+
 
   text-align: center;
   font-size: 3vw;
@@ -320,20 +332,21 @@ footer{
 
 }
 
+
 @media (max-width: 767px){
 	.language-progress-bars{
 
 		border-right: 0px;
-		
+
 	}
 	.personal-skills-progress-bars{
 		border-left: 0px;
-		
+
 	}
 }
 
 @media (max-width: 990px){
-	
+
 	.contact-bottom{
 		border-top: 1px solid black;
 		padding-top: 30px;
@@ -342,6 +355,5 @@ footer{
 	.contact-top{
 		padding-bottom:30px;
 	}
-	
-}
 
+}
